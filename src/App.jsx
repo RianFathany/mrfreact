@@ -14,6 +14,7 @@ import JobDetails from './components/JobDetails';
 import Images from './components/Image';
 import Epl from './components/Epl';
 
+const routerBaseName = process.env.PUBLIC_URL;
 
 class App extends Component{
 
@@ -32,14 +33,14 @@ class App extends Component{
 
     render(){
         return(
-            <BrowserRouter>
+            <BrowserRouter basename={routerBaseName}>
                 <div className="container">
                     <Navigation />
                     <div onClick={this.clickBody}>
                         <Switch>
-                            <Route path={process.env.PUBLIC_URL+'/'} component={Home} exact/>
-                            <Route path={process.env.PUBLIC_URL+'/about'} component={About}/>
-                            <Route path={process.env.PUBLIC_URL+'/contact'} component={Contact}/>
+                            <Route path='/' component={Home} exact/>
+                            <Route path='/about' component={About}/>
+                            <Route path='/contact' component={Contact}/>
                             <Route path={process.env.PUBLIC_URL+'/jobs'} component={Jobs}/>
                             <Route path={process.env.PUBLIC_URL+'/jobdetails/:id'} component={JobDetails}/>
                             <Route path={process.env.PUBLIC_URL+'/images'} component={Images}/>

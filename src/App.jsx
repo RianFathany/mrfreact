@@ -41,10 +41,10 @@ class App extends Component{
                             <Route path='/' component={Home} exact/>
                             <Route path='/about' component={About}/>
                             <Route path='/contact' component={Contact}/>
-                            <Route path={process.env.PUBLIC_URL+'/jobs'} component={Jobs}/>
-                            <Route path={process.env.PUBLIC_URL+'/jobdetails/:id'} component={JobDetails}/>
-                            <Route path={process.env.PUBLIC_URL+'/images'} component={Images}/>
-                            <Route path={process.env.PUBLIC_URL+'/epl'} component={Epl}/>
+                            <Route path='/jobs' component={Jobs}/>
+                            <Route path='/jobdetails/:id' component={JobDetails}/>
+                            <Route path='/images' component={Images}/>
+                            <Route path='/epl' component={Epl}/>
                             <Route component={Error}/>
                         </Switch>
                     </div>

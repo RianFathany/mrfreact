@@ -46,7 +46,7 @@ class JobDetails extends Component{
             return (
                 <div>
                     <div className="breadcumb-cs">
-                        <NavLink to={process.env.PUBLIC_URL+'/jobs'} className="aLink"><span>Jobs </span></NavLink>
+                        <NavLink to='/jobs' className="aLink"><span>Jobs </span></NavLink>
                         <span className="linkDivider fa fa-angle-right"></span>
                         <span>Job Detail</span>
                     </div>
@@ -63,7 +63,7 @@ class JobDetails extends Component{
             return (
                 <div>
                     <div className="breadcumb-cs">
-                        <NavLink to={process.env.PUBLIC_URL+'/jobs'} className="aLink"><span>Jobs </span></NavLink>
+                        <NavLink to='/jobs' className="aLink"><span>Jobs </span></NavLink>
                         <span className="linkDivider fa fa-angle-right"></span>
                         <span>Job Detail</span>
                     </div>
@@ -79,7 +79,7 @@ class JobDetails extends Component{
             return (
                 <div>
                     <div className="breadcumb-cs">
-                        <NavLink to={process.env.PUBLIC_URL+'/jobs'} className="aLink"><span>Jobs </span></NavLink>
+                        <NavLink to='/jobs' className="aLink"><span>Jobs </span></NavLink>
                         <span className="linkDivider fa fa-angle-right"></span>
                         <span>Job Detail</span>
                         <span className="linkDivider fa fa-angle-right"></span>

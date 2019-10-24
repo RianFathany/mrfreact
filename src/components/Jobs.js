@@ -94,7 +94,7 @@ class Jobs extends Component{
                                                     <span className="location">{location}</span>
                                                 </div>
                                                 <div>
-                                                    <NavLink to={process.env.PUBLIC_URL+'/JobDetails/'+id}>
+                                                    <NavLink to={'/JobDetails/'+id}>
                                                         <button className="btn btn-default btn-sm">Details</button>
                                                     </NavLink>
                                                 </div>

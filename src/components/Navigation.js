@@ -56,15 +56,15 @@ class Navigation extends Component{
                         <div className="my-title">MR.FREACT</div>
                     </div>
                     <div className="menuLine text-right">
-                        <NavLink to={process.env.PUBLIC_URL+'/'}>Home</NavLink>
-                        <NavLink to={process.env.PUBLIC_URL+'/about'}>About</NavLink>
-                        <NavLink to={process.env.PUBLIC_URL+'/contact'}>Contact</NavLink>
+                        <NavLink to='/'>Home</NavLink>
+                        <NavLink to='/about'>About</NavLink>
+                        <NavLink to='/contact'>Contact</NavLink>
                         <div className="dropdown">
                             <a>Data</a>
                             <div className="dropdown-content">
-                                <NavLink to={process.env.PUBLIC_URL+'/jobs'}>Jobs</NavLink>
-                                <NavLink to={process.env.PUBLIC_URL+'/images'}>Images</NavLink>
-                                <NavLink to={process.env.PUBLIC_URL+'/epl'}>EPL</NavLink>
+                                <NavLink to='/jobs'>Jobs</NavLink>
+                                <NavLink to='/images'>Images</NavLink>
+                                <NavLink to='/epl'>EPL</NavLink>
                             </div>
                         </div>
                         <div className="icon-bar" onClick={this.handleClick}>
@@ -73,16 +73,16 @@ class Navigation extends Component{
                     </div>
                 </div>
                 <div id="standardSidenav" style={currestStyle}  className="sidenav">
-                    <NavLink to={process.env.PUBLIC_URL+'/'}>Home</NavLink>
-                    <NavLink to={process.env.PUBLIC_URL+'/about'}>About</NavLink>
-                    <NavLink to={process.env.PUBLIC_URL+'/contact'}>Contact</NavLink>
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/about'>About</NavLink>
+                    <NavLink to='/contact'>Contact</NavLink>
                     <button className="dropdown-sidenav">
                         Data <i className="fa fa-caret-down"/>
                     </button>
                     <div className="dropdown-sidenav-container">
-                        <NavLink to={process.env.PUBLIC_URL+'/jobs'}>Jobs</NavLink>
-                        <NavLink to={process.env.PUBLIC_URL+'/images'}>Images</NavLink>
-                        <NavLink to={process.env.PUBLIC_URL+'/epl'}>EPL</NavLink>
+                        <NavLink to='/jobs'>Jobs</NavLink>
+                        <NavLink to='/images'>Images</NavLink>
+                        <NavLink to='/epl'>EPL</NavLink>
                     </div>
                 </div>
                 <script src="sidebarJs.js"></script>

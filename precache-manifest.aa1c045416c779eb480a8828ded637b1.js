@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c0f51c42dacc540d6f891a7fae7b334",
+    "revision": "e205f96f7ccf3c02ce731dbdae301db4",
     "url": "/mrfreact/index.html"
   },
   {
-    "revision": "b4bbc78435dc1dd569d3",
+    "revision": "f21090a6b7553b1094a8",
     "url": "/mrfreact/static/css/2.739e3107.chunk.css"
   },
   {
-    "revision": "f35229b8a6b5276b065d",
+    "revision": "aebd51b679bd606b4c77",
     "url": "/mrfreact/static/css/main.631d5d9a.chunk.css"
   },
   {
-    "revision": "b4bbc78435dc1dd569d3",
-    "url": "/mrfreact/static/js/2.742103e1.chunk.js"
+    "revision": "f21090a6b7553b1094a8",
+    "url": "/mrfreact/static/js/2.772ae17e.chunk.js"
   },
   {
-    "revision": "f35229b8a6b5276b065d",
-    "url": "/mrfreact/static/js/main.84c4f1d8.chunk.js"
+    "revision": "aebd51b679bd606b4c77",
+    "url": "/mrfreact/static/js/main.9542aaac.chunk.js"
   },
   {
     "revision": "40d7ec94f53db1f8d9bc",

@@ -2,7 +2,7 @@
  * Created by AMP-3 on 9/23/2019.
  */
 import React, { Component } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './components/Home';
 import About from './components/About';
@@ -31,7 +31,7 @@ class App extends Component{
 
     render(){
         return(
-            <HashRouter>
+            <BrowserRouter>
                 <div className="container">
                     <Navigation />
                     <div onClick={this.clickBody}>
@@ -48,7 +48,7 @@ class App extends Component{
                     </div>
 
                 </div>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }

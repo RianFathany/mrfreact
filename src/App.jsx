@@ -13,8 +13,10 @@ import Jobs from './components/Jobs';
 import JobDetails from './components/JobDetails';
 import Images from './components/Image';
 import Epl from './components/Epl';
+import Game from './components/Game';
 
 const routerBaseName = process.env.PUBLIC_URL;
+//routerBaseName basename yang di tambahkan ke browser router
 
 class App extends Component{
 
@@ -45,6 +47,7 @@ class App extends Component{
                             <Route path='/jobdetails/:id' component={JobDetails}/>
                             <Route path='/images' component={Images}/>
                             <Route path='/epl' component={Epl}/>
+                            <Route path='/game' component={Game}/>
                             <Route component={Error}/>
                         </Switch>
                     </div>

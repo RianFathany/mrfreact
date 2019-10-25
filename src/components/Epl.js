@@ -65,8 +65,8 @@ class Club extends Component{
                 <div>
                     <div className="breadcumb-cs"><span>Premier League Profile Club 2018-2019</span></div>
 
-                    <div className="cs-panel fix-size-panel">
-                        <div>
+                    <div className="cs-panel fix-size-panel black-panel">
+                        <div className="whiteText">
                             <div>Error: {error.message}</div>
                         </div>
                     </div>
@@ -78,8 +78,8 @@ class Club extends Component{
                 <div>
                     <div className="breadcumb-cs"><span>Premier League Profile Club 2018-2019</span></div>
 
-                    <div className="cs-panel fix-size-panel">
-                        <div className="text-center">
+                    <div className="cs-panel fix-size-panel black-panel">
+                        <div className="text-center whiteText">
                             <div><i className="fa fa-gear fa-spin"></i> Loading...</div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ class Club extends Component{
                 <div>
                     <div className="breadcumb-cs"><span>Premier League Profile Club 2018-2019</span></div>
 
-                    <div className="cs-panel fix-size-panel">
+                    <div className="cs-panel fix-size-panel black-panel">
                         <div className="cs-body-panel ">
                             {
                                 items.length > 0 ? items.map((item,i) => {
@@ -100,7 +100,7 @@ class Club extends Component{
                                             <div className="logo">
                                                 <img src={item.logo} />
                                             </div>
-                                            <div className="data">
+                                            <div className="data whiteText">
                                                 <div className="dataLabel">{item.name}</div>
                                                 <div className="data-child">
                                                     <label>Country</label>
@@ -190,8 +190,8 @@ class Content extends Component{
                 <div className="col-sm-11 contenLeft">
                     <div className="breadcumb-cs"><span>Premier League Standings 2018-2019</span></div>
 
-                    <div className="cs-panel fix-size-panel">
-                        <div>
+                    <div className="cs-panel fix-size-panel black-panel">
+                        <div className="whiteText">
                             <div>Error: {error.message}</div>
                         </div>
                     </div>
@@ -203,8 +203,8 @@ class Content extends Component{
                 <div className="col-sm-11 contenLeft">
                     <div className="breadcumb-cs"><span>Premier League Standings 2018-2019</span></div>
 
-                    <div className="cs-panel fix-size-panel">
-                        <div className="text-center">
+                    <div className="cs-panel fix-size-panel black-panel">
+                        <div className="text-center whiteText">
                             <div><i className="fa fa-gear fa-spin"></i> Loading...</div>
                         </div>
                     </div>
@@ -215,9 +215,9 @@ class Content extends Component{
             return(
                 <div className="col-sm-12 contenLeft">
                     <div className="breadcumb-cs"><span>Premier League Standings 2018-2019</span></div>
-                    <div className="cs-panel fix-size-panel">
+                    <div className="cs-panel fix-size-panel black-panel">
                         <div className="cs-body-panel ">
-                            <table className="forEplTable">
+                            <table className="forEplTable whiteText">
                                 <thead>
                                 <tr>
                                     <th>Pos</th>
@@ -288,9 +288,9 @@ class Content extends Component{
                                 </tbody>
                             </table>
                             <div className="infoTableEpl">
-                                <span><i className="fa fa-circle ucl-color"></i> UCL Stage</span>
-                                <span><i className="fa fa-circle uel-color"></i> UEL Stage</span>
-                                <span><i className="fa fa-circle degradasi-color"></i> Relegation</span>
+                                <span><i className="fa fa-circle ucl-color"></i> <span className="whiteText">UCL Stage</span></span>
+                                <span><i className="fa fa-circle uel-color"></i> <span className="whiteText">UEL Stage</span></span>
+                                <span><i className="fa fa-circle degradasi-color"></i> <span className="whiteText">Relegation</span></span>
                             </div>
                         </div>
                     </div>

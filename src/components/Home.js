@@ -56,7 +56,8 @@ class Home extends Component{
                         <div>
                             <div id="greet"></div>
                         </div>
-                        <p>sekarang menunjukkan pukul</p>
+                        <p>Welcome to  my site</p>
+                        <p>Sekarang menunjukkan pukul</p>
                         <div className="banner-2">
                             <span id="jam"></span>
                         </div>

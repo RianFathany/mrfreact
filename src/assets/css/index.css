@@ -100,8 +100,10 @@ ul.header li a:hover {
     box-shadow: 1px 1px 7px -2px rgba(0,0,0,0.5);
     margin-bottom:10px;
 }
-.black-panel{background: #2b2b2b63 !important;}
+.black-panel{background: #2b2b2b94 !important;}
 .black-panel p{color:whitesmoke}
+.whiteText{color: white;}
+.yellowText{color:yellow;}
 .no-color{
     background: transparent!important;
 }
@@ -119,6 +121,9 @@ ul.header li a:hover {
     max-height: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.cs-body-panel-game{
+    max-height: 440px!important;
 }
 
 
@@ -241,11 +246,14 @@ ul.header li a:hover {
 .contentImage img:hover + .desc{opacity: 1;}
 .desc:hover{ opacity: 1;  }
 
-.flexStyle{display: flex}
+.flexStyle{display: flex;position: relative}
 .contentImage .desc .data{padding: 0px 5px 5px;}
 .contentImage .desc .data span{ padding-right: 5px;}
 .lightPadding{
     padding: 2px!important;
+}
+.mediumLightPadding{
+    padding: 5px !important;
 }
 
 
@@ -320,7 +328,7 @@ ul.header li a:hover {
     height:100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top:60px;
     left: auto;
     right:0 !important;
@@ -415,10 +423,10 @@ ul.header li a:hover {
     display: block;
     padding: 15px 10px;
     height: 350px;
-    border-bottom: dashed 1px #d8d8d8;
+    border-bottom: dashed 1px #717171;
 }
 .forEpl:hover{
-    background: #f1f1f1;
+    background: #1515152e;
     box-shadow: 1px 1px 7px -5px;
     transition: 0.5s;
 }
@@ -452,12 +460,12 @@ ul.header li a:hover {
 .forContact .labelData{
     font-size: 20px;
     margin-bottom: 5px;
-    color: #769da9;
+    color: #afecf9;
 }
 .forContact .data{
     font-size: 13px;
     margin-bottom: 10px;
-    color: #6f6f6f;
+    color: #f1f1f1;
 }
 .forContact .data span{
     margin-right: 10px;
@@ -486,6 +494,15 @@ ul.header li a:hover {
     }
     100% {
         transform: scale(1,1);
+    }
+}
+
+@keyframes zoomout {
+    0% {
+        transform: scale(1,1);
+    }
+    100% {
+        transform: scale(1.2,1.2);
     }
 }
 
@@ -594,21 +611,21 @@ ul.header li a:hover {
     width:100%;
 }
 .forEplTable th{
-    background-color: #444444;
+    background-color: #2d2d2d;
     color: white;
     padding: 5px;
 }
 .forEplTable tr td{
     padding: 3px 4px;
-    border-bottom:solid 1px #eaeaea;
+    border-bottom:solid 1px #767676;
 }
 
-.ucl{background: #d1e0ec;}
-.ucl-color{color: #d1e0ec;}
-.uel{background: #fff6c9;}
-.uel-color{color: #fff6c9;}
-.degradasi{background: #ffadad;}
-.degradasi-color{color: #ffadad;}
+.ucl{background: #052c4c9e;}
+.ucl-color{color: rgba(5, 82, 132, 0.62);}
+.uel{background: #61520a6b;}
+.uel-color{color: rgba(142, 123, 12, 0.42);}
+.degradasi{background: #4e040491;}
+.degradasi-color{color: rgba(133, 4, 4, 0.57);}
 .infoTableEpl{
     font-size: 11px;
     padding: 4px 0px;
@@ -616,6 +633,79 @@ ul.header li a:hover {
 .infoTableEpl span{
     margin-right: 4px;
 }
+
+.gameHead .title{
+    margin-left: 5px;
+}
+.gameHead .buttonPlace{
+    position: absolute ;
+    top:5px;
+    right: 0px;
+}
+.gameHead .buttonPlace button{
+    margin-right: 5px;
+}
+
+.buttonGame{
+    padding: 5px 15px;
+    color: #f2f2f2;
+    font-size: 12px;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    background: rgba(60, 84, 101, 0.42);
+    border: solid 1px #68c5d28f;
+    outline: none;
+    min-width: 80px;
+}
+.buttonGame:hover{
+    transition: .3s;
+    color: white;
+    background: rgba(37, 15, 93, 0.42);
+    border: solid 1px #a8d9e08f;
+
+}
+
+.forGame{
+    /*border: solid 1px darkgrey; */
+    padding: 0px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px -2px black;
+    background: #0a0b387a;
+    margin-bottom: 10px;
+    color: white;
+}
+.forGame:hover{
+    transition: .3s;
+    box-shadow: 1px 2px 7px -2px black;
+    cursor: pointer;
+}
+
+.forGame .image{
+    height: 115px;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px 5px 0px 0px;
+}
+.forGame .image:hover{
+    cursor: pointer;
+}
+
+.forGame .info{
+    font-size: 12px;
+    padding: 10px;
+    overflow: auto;
+    max-height: 80px;
+}
+.forGame .info .title{
+    font-weight: bold;
+}
+.forGame .info .rating{
+    margin-top: 5px;
+}
+
 
 @media screen and (max-width: 767px){
     .forEplTable{

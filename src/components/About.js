@@ -8,8 +8,8 @@ const About = () => {
         <div>
             <div className="breadcumb-cs"><span>About</span></div>
 
-            <div className="cs-panel fix-size-panel">
-                <div>
+            <div className="cs-panel fix-size-panel black-panel">
+                <div className="whiteText">
                     <h3>About</h3>
                     <p>This app linked from various API </p>
                 </div>

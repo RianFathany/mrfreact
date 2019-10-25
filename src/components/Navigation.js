@@ -65,6 +65,7 @@ class Navigation extends Component{
                                 <NavLink to='/jobs'>Jobs</NavLink>
                                 <NavLink to='/images'>Images</NavLink>
                                 <NavLink to='/epl'>EPL</NavLink>
+                                <NavLink to='/game'>Games</NavLink>
                             </div>
                         </div>
                         <div className="icon-bar" onClick={this.handleClick}>
@@ -83,6 +84,7 @@ class Navigation extends Component{
                         <NavLink to='/jobs'>Jobs</NavLink>
                         <NavLink to='/images'>Images</NavLink>
                         <NavLink to='/epl'>EPL</NavLink>
+                        <NavLink to='/game'>Games</NavLink>
                     </div>
                 </div>
                 <script src="sidebarJs.js"></script>

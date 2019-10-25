@@ -42,8 +42,8 @@ class Images extends Component{
                 <div>
                     <div className="breadcumb-cs"><span>Images</span></div>
 
-                    <div className="cs-panel fix-size-panel">
-                        <div>
+                    <div className="cs-panel fix-size-panel black-panel">
+                        <div className="whiteText">
                             <div>Error: {error.message}</div>
                         </div>
                     </div>
@@ -55,8 +55,8 @@ class Images extends Component{
                 <div>
                     <div className="breadcumb-cs"><span>Images</span></div>
 
-                    <div className="cs-panel fix-size-panel">
-                        <div className="text-center">
+                    <div className="cs-panel fix-size-panel black-panel">
+                        <div className="text-center whiteText">
                             <div><i className="fa fa-gear fa-spin"></i> Loading...</div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ class Images extends Component{
                 <div>
                     <div className="breadcumb-cs"><span>Images</span></div>
 
-                    <div className="cs-panel fix-size-panel">
+                    <div className="cs-panel fix-size-panel black-panel">
                         <div className="cs-body-panel">
                             {
                                 items.length > 0 ? items.map((item,i) => {

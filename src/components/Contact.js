@@ -18,7 +18,7 @@ class Contact extends Component{
             <div>
                 <div className="breadcumb-cs"><span>Contact</span></div>
 
-                <div className="cs-panel fix-size-panel">
+                <div className="cs-panel fix-size-panel black-panel">
                     <div className="cs-body-panel">
                         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 lightPadding">
                             <div className="forMap">

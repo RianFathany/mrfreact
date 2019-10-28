@@ -100,13 +100,15 @@ class Game extends Component{
                                     };
                                     return(
                                         <div key={item.id} className="col-xs-6 col-sm-2 col-md-2 col-lg-2 mediumLightPadding">
-                                            <div className="forGame">
-                                                <div className="image" style={getImage}></div>
-                                                <div className="info">
-                                                    <div className="title">{item.name}</div>
-                                                    <div className="rating"><i className="fa fa-star yellowText"></i> {item.rating}</div>
+                                            <NavLink to={'/GameDetails/'+item.slug} className="linkPlain">
+                                                <div className="forGame">
+                                                    <div className="image" style={getImage}></div>
+                                                    <div className="info">
+                                                        <div className="title">{item.name}</div>
+                                                        <div className="rating"><i className="fa fa-star yellowText"></i> {item.rating}</div>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </NavLink>
                                         </div>
                                     )
                                 }):null

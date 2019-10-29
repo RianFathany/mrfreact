@@ -124,6 +124,7 @@ ul.header li a:hover {
 }
 .cs-body-panel-game{
     max-height: 440px!important;
+    overflow-x: hidden;
 }
 
 

@@ -683,7 +683,7 @@ ul.header li a:hover {
     box-shadow: 1px 1px 14px -3px black;
     background: #0b42637a;
     /*-webkit-transform: scale(1.1);*/
-    transform: scale(0.9,0.9);
+    transform: scale(1.04,1.04);
 }
 .forGame .image{
     height: 150px;

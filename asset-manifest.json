@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mrfreact/static/css/main.37c64ee4.chunk.css",
+    "main.css": "/mrfreact/static/css/main.a3ae26ff.chunk.css",
     "main.js": "/mrfreact/static/js/main.42ed86d9.chunk.js",
     "main.js.map": "/mrfreact/static/js/main.42ed86d9.chunk.js.map",
     "runtime-main.js": "/mrfreact/static/js/runtime-main.f49e1d9e.js",
@@ -9,10 +9,10 @@
     "static/js/2.f9876422.chunk.js": "/mrfreact/static/js/2.f9876422.chunk.js",
     "static/js/2.f9876422.chunk.js.map": "/mrfreact/static/js/2.f9876422.chunk.js.map",
     "index.html": "/mrfreact/index.html",
-    "precache-manifest.db6c11f17434f77b29c05191bcba093f.js": "/mrfreact/precache-manifest.db6c11f17434f77b29c05191bcba093f.js",
+    "precache-manifest.3f5696dae83c9644e5bb18aecf4d264f.js": "/mrfreact/precache-manifest.3f5696dae83c9644e5bb18aecf4d264f.js",
     "service-worker.js": "/mrfreact/service-worker.js",
     "static/css/2.739e3107.chunk.css.map": "/mrfreact/static/css/2.739e3107.chunk.css.map",
-    "static/css/main.37c64ee4.chunk.css.map": "/mrfreact/static/css/main.37c64ee4.chunk.css.map",
+    "static/css/main.a3ae26ff.chunk.css.map": "/mrfreact/static/css/main.a3ae26ff.chunk.css.map",
     "static/media/fontStyle.css": "/mrfreact/static/media/adventpro-semibold-webfont.547e37f5.ttf",
     "static/media/index.css": "/mrfreact/static/media/selamat_sore.01148d4d.png",
     "static/media/font-awesome.css": "/mrfreact/static/media/fontawesome-webfont.fee66e71.woff",

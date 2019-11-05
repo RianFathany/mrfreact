@@ -104,7 +104,6 @@ ul.header li a:hover {
 
 .black-panel{
     background: #00000094 !important;
-    backdrop-filter:blur(5px);
 }
 .black-panel:before{
     content:"";

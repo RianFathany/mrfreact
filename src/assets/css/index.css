@@ -16,6 +16,7 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .my-icon{
@@ -100,7 +101,18 @@ ul.header li a:hover {
     box-shadow: 1px 1px 7px -2px rgba(0,0,0,0.5);
     margin-bottom:10px;
 }
-.black-panel{background: #00000094 !important;}
+
+.black-panel{
+    background: #00000094 !important;
+    backdrop-filter:blur(5px);
+}
+.black-panel:before{
+    content:"";
+    z-index: -1;
+    position: absolute;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+}
 .black-panel p{color:whitesmoke}
 .whiteText{color: white;}
 .yellowText{color:yellow;}
